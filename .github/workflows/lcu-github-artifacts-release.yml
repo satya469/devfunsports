@@ -13,9 +13,9 @@ env:
   Branches: master
   MainBranch: master
   NPMRegistry: https://registry.npmjs.org/
-  InstallCommand: ng serve
-  BuildCommand: ng build
-  Output: ./dist
+  InstallCommand: npm i
+  BuildCommand: npm run build
+  Output: ./
 
 jobs:
   build:
